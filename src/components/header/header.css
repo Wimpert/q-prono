@@ -5,6 +5,7 @@ header {
   display: flex;
   background: white;
   border-bottom: 10px solid var(--qwik-dark-purple);
+  @apply bg-orange-600;
 }
 
 header .logo a {
