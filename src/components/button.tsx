@@ -4,7 +4,7 @@ export function Button(props: any) {
       {...props}
       className={
         props.className +
-        " rounded border-red-300 border bg-slate-400 hover:bg-red-200 text-white"
+        " rounded border-gray-800 border bg-slate-200 text-gray-600 hover:bg-slate-400 hover:text-white p-2"
       }
     >
       {props.label}
